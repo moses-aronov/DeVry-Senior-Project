@@ -1,8 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmCreateStaff.aspx.cs" Inherits="FinalProject.frmCreateStaff" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmCreateStaff.aspx.cs" Inherits="FinalProject.frmCreateStaff" MasterPageFile="~/master.Master" %>
+<%@ MasterType VirtualPath="~/master.Master" %>
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%--<!DOCTYPE html>--%>
+
+<%--<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
 </head>
@@ -18,4 +20,4 @@
     </div>
     </form>
 </body>
-</html>
+</html>--%>
