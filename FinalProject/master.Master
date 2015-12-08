@@ -1,20 +1,61 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="FinalProject.master" %>
-
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="master.master.cs" Inherits="FinalProject.master" %>
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
-    </form>
-</body>
+    <head runat="server">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link href="Content/bootstrap.css" rel="stylesheet" />
+        <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+        <title></title>
+            <asp:ContentPlaceHolder ID="head" runat="server">
+            </asp:ContentPlaceHolder>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <style type="text/css">
+           
+        </style>
+    </head>
+    <body runat="server">
+        <div class="container">
+            <div class="page-header">
+                <div class="alert-<%=AlertColor %>">
+                    <p class="text-center">
+                        <asp:Label ID="lblUserFeedback" runat="server">Welcome Travler!</asp:Label>
+                    </p>
+                </div>
+            </div>
+            <form id="form1" runat="server">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <asp:ContentPlaceHolder ID="leftPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-lg-6">
+                        <asp:ContentPlaceHolder ID="rightPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <asp:ContentPlaceHolder ID="bottomPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer class="modal-footer">
+            <div class="container">
+                <p class="text-center">Copyright Devry University</p>
+            </div>
+        </footer>
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="scripts/jquery-1.9.1.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+    </body>
 </html>
