@@ -9,6 +9,7 @@ namespace FinalProject
 {
     public partial class master : System.Web.UI.MasterPage
     {
+        
         //CSS Class Variable for Error AlertColor
         public string AlertColor = "";
 
