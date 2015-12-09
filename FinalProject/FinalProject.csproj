@@ -112,6 +112,17 @@
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap-theme.min.css.map" />
     <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="dsStaff.xsc">
+      <DependentUpon>dsStaff.xsd</DependentUpon>
+    </Content>
+    <None Include="dsStaff.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStaff.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="dsStaff.xss">
+      <DependentUpon>dsStaff.xsd</DependentUpon>
+    </Content>
     <None Include="dsUser.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
@@ -152,6 +163,11 @@
   <ItemGroup>
     <Compile Include="clsBusinessLayer.cs" />
     <Compile Include="clsDataLayer.cs" />
+    <Compile Include="dsStaff.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStaff.xsd</DependentUpon>
+    </Compile>
     <Compile Include="dsUser.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
