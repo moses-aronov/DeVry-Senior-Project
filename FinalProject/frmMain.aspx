@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmMain.aspx.cs" Inherits="FinalProject.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmMain.aspx.cs" Inherits="FinalProject.frmMain" %>
 
 <!DOCTYPE html>
 
