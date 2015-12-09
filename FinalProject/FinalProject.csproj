@@ -98,6 +98,7 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="FinalProject_DB.accdb" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="frmCreateStaff.aspx" />
     <Content Include="packages.config" />
@@ -140,7 +141,6 @@
   <ItemGroup>
     <Content Include="frmLogin.aspx" />
     <Content Include="frmManageUsers.aspx" />
-    <Content Include="FinalProject_DB.accdb" />
     <Content Include="Pictures\banner.jpg" />
     <Content Include="Pictures\Employee.jpg" />
     <Content Include="Pictures\manage.jpg" />
