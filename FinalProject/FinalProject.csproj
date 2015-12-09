@@ -99,6 +99,7 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="frmCreateStaff.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -137,7 +138,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="frmCreateStaff.aspx" />
     <Content Include="frmLogin.aspx" />
     <Content Include="frmManageUsers.aspx" />
     <Content Include="FinalProject_DB.accdb" />
@@ -159,7 +159,6 @@
     </Compile>
     <Compile Include="frmCreateStaff.aspx.cs">
       <DependentUpon>frmCreateStaff.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmCreateStaff.aspx.designer.cs">
       <DependentUpon>frmCreateStaff.aspx</DependentUpon>
